@@ -23,7 +23,7 @@ htmlcov/
 # Project specific
 input/
 output/
-evaluation/reports/
+# evaluation/reports/
 # evaluation/ground_truth.json
 !evaluation/ground_truth.json.example
 
