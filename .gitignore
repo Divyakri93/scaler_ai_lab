@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+input/
+output/
+evaluation/reports/
+evaluation/ground_truth.json
+!evaluation/ground_truth.json.example
+
+# OS files
+.DS_Store
+Thumbs.db
