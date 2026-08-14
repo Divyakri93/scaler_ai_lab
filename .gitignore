@@ -24,7 +24,7 @@ htmlcov/
 input/
 output/
 evaluation/reports/
-evaluation/ground_truth.json
+# evaluation/ground_truth.json
 !evaluation/ground_truth.json.example
 
 # OS files

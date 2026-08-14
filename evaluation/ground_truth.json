@@ -1,0 +1,97 @@
+{
+  "document_id": "sample_document_001",
+  "blocks": {
+    "section_0_header_p_0": [
+      {
+        "type": "FULL_NAME",
+        "text": "Alice Smith",
+        "start": 33,
+        "end": 44
+      },
+      {
+        "type": "EMAIL",
+        "text": "alice.smith@gmail.com",
+        "start": 46,
+        "end": 67
+      }
+    ],
+    "body_p_0": [
+      {
+        "type": "FULL_NAME",
+        "text": "Alice Smith",
+        "start": 19,
+        "end": 30
+      },
+      {
+        "type": "EMAIL",
+        "text": "alice.smith@gmail.com",
+        "start": 32,
+        "end": 53
+      },
+      {
+        "type": "DATE_OF_BIRTH",
+        "text": "12/04/1999",
+        "start": 82,
+        "end": 92
+      }
+    ],
+    "body_p_1": [
+      {
+        "type": "PHONE",
+        "text": "+91 9876543210",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "type": "IP_ADDRESS",
+        "text": "192.168.1.1",
+        "start": 37,
+        "end": 48
+      }
+    ],
+    "body_p_2": [
+      {
+        "type": "SSN",
+        "text": "123-45-6789",
+        "start": 5,
+        "end": 16
+      },
+      {
+        "type": "COMPANY_NAME",
+        "text": "Google",
+        "start": 30,
+        "end": 36
+      }
+    ],
+    "body_p_3": [
+      {
+        "type": "ADDRESS",
+        "text": "123 MG Road, Delhi",
+        "start": 9,
+        "end": 27
+      },
+      {
+        "type": "CREDIT_CARD",
+        "text": "4111-1111-1111-1111",
+        "start": 43,
+        "end": 62
+      }
+    ],
+    "body_table_0_r0_c0_p0": [
+      {
+        "type": "ADDRESS",
+        "text": "Flat 201, Tower B, Sector 62, Noida",
+        "start": 21,
+        "end": 56
+      }
+    ],
+    "body_table_0_r0_c1_p0": [
+      {
+        "type": "EMAIL",
+        "text": "alice.smith@gmail.com",
+        "start": 23,
+        "end": 44
+      }
+    ]
+  }
+}
