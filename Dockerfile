@@ -1,4 +1,4 @@
-# Production-ready Dockerfile for PII Redactor
+# Production-ready Dockerfile for PII Redactor API
 FROM python:3.12-slim
 
 # Prevent Python from writing .pyc files and enable unbuffered output logging
@@ -35,6 +35,8 @@ RUN mkdir -p input output evaluation/reports && \
 # Switch to the non-root execution context
 USER appuser
 
-# Configure default command to print help
-ENTRYPOINT ["python", "-m", "pii_redactor.cli"]
-CMD ["--help"]
+# Expose default HTTP port
+EXPOSE 8000
+
+# Start Uvicorn web server, dynamically binding to Render's $PORT env variable
+CMD ["sh", "-c", "uvicorn pii_redactor.api:app --host 0.0.0.0 --port ${PORT:-8000}"]
